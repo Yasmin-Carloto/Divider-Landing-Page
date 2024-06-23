@@ -1,0 +1,40 @@
+@import url(/styles/header/header.css);
+
+*{
+    font-family: "Rubik Regular", sans-serif;
+    font-size: 18px;
+
+    --shadow-color: #c5c5c5;
+    --light-gray: #cccccc;
+    --soft-blue: hsl(231, 69%, 60%);
+    --soft-red: hsl(0, 94%, 66%);
+    --grayish-blue: hsl(229, 8%, 60%);
+    --grayish-blue-lighter: hsl(231, 23%, 83%);
+    --very-dark-blue: hsl(229, 31%, 21%);
+    --dark-gray: #282828;
+    --white: #fff;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    position: relative;
+    padding-bottom: 60px; 
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: "Rubik Regular";
+    src: url(/fonts/rubik/static/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Rubik Light";
+    src: url(/fonts/rubik/static/Rubik-Light.ttf);
+}
