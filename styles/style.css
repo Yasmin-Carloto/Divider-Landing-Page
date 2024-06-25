@@ -1,4 +1,5 @@
 @import url(/styles/header/header.css);
+@import url(/styles/main-app-introduction/main-app-introduction.css);
 
 *{
     font-family: "Rubik Regular", sans-serif;

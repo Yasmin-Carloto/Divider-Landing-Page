@@ -36,7 +36,7 @@ header{
     float: right;
     position: absolute; 
     top: 46%; 
-    right: 10%;
+    right: 6%;
     width: 10%;
 }
 
@@ -65,12 +65,20 @@ nav ul li{
     cursor: pointer;
 }
 
-nav ul li:hover{
+nav ul li:hover, #register:hover{
     background-color: var(--soft-blue);
 }
 
 nav ul li a{
     text-decoration: none;
+    color: var(--white);
+}
+
+#register{
+    background-color: var(--soft-red);
+}
+
+#register a{
     color: var(--white);
 }
 
