@@ -31,7 +31,7 @@
         </li>
 
         <li>
-          <a href="#">Contact</a>
+          <a href="#update-form-container">Contact</a>
         </li>
 
         <li>
@@ -136,8 +136,21 @@
         </div>
       </div>
     </section>
-  </main>
 
+    <section id="update-form-container">
+      <div id="form-information-container">
+        <h2 class="section-title clean">Signup for our test</h2>
+        <p id="form-description">Submiting your email, you will receive the earliests versions with new features of our apps for tests. Doing that, you will help us to improve our plataform.</p>
+      </div>
+
+      <span class="error" id="email-error"></span>
+
+      <form id="form-container" action="">
+        <input type="email" name="email-field" id="email-field" placeholder="Type your email here" required/>
+        <input type="submit" value="Subimit your email" id="submit-button"/>
+      </form>
+    </section>
+  </main>
 
   <script src="scripts/script.js"></script>
 </body>

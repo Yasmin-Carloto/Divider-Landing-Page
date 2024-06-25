@@ -77,3 +77,23 @@ for(let i = 0; i< accordionsButtonFaq.length; i++){
         }
     })
 }
+
+function validateEmailByRegex(email){
+    let regexEmail = /\S+@\S+\.\S+/
+
+    return regexEmail.test(email)
+}
+
+const submitButton = document.getElementById("submit-button")
+const emailField = document.getElementById("email-field")
+const errorEmail = document.getElementById("email-error")
+submitButton.addEventListener("submit", (e) => {
+    e.preventDefault()
+    const isEmailValid = validateEmailByRegex(emailField.value)
+
+    if(!isEmailValid || emailField.value == ""){
+        errorEmail.innerText = "Fill with a valid email!"
+    }else{
+        errorEmail.innerText = ""
+    }
+})

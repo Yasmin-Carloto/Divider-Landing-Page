@@ -2,6 +2,7 @@
 @import url(/styles/main-app-introduction/main-app-introduction.css);
 @import url(/styles/main-app-features/main-app-features.css);
 @import url(/styles/main-app-faq/main-app-faq.css);
+@import url(/styles/main-app-update-form/main-app-update-form.css);
 
 *{
     font-family: "Rubik Regular", sans-serif;
@@ -16,6 +17,7 @@
     --very-dark-blue: hsl(229, 31%, 21%);
     --dark-gray: #282828;
     --white: #fff;
+    --error-red: rgb(153, 0, 0);
 }
 
 html, body {
@@ -47,7 +49,6 @@ body {
 .clean{
     clear: both;
 }
-
 
 @font-face {
     font-family: "Rubik Regular";
