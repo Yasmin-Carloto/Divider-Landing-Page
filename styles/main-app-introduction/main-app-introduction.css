@@ -1,29 +1,9 @@
-#app-introduction-container{
-
-}
-
 #app-illustrations{
     width: 100%;
 }
 
 #app-information-container{
     margin: 1em;
-}
-
-#app-information-text{
-    text-align: center;
-}
-
-#app-information-text h2{
-    text-align: center;
-    font-size: 24px;
-    text-transform: capitalize;
-}
-
-#app-information-text p{
-    font-size: 16px;
-    line-height: 1.5em;
-    color: var(--grayish-blue);
 }
 
 #app-information-links{
@@ -41,6 +21,7 @@
     color: var(--soft-blue);
     white-space: nowrap;
     margin: 2em;
+    font-family: "Rubik Light";
 }
 
 #app-information-links a:last-child{
