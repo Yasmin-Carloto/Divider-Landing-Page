@@ -34,20 +34,25 @@
 @media screen and (min-width: 1100px){
 
     #features-information-container{
-        margin: 4em;
+        margin: 0 4em;
     }
 
     #features-changes-container{
-        padding: 0 3em;
+
     }
 
     #features-changes-container #question-divider-feature{
+        float: right;
+        margin-left: 1em;
+    }
+
+    #features-changes-container #gamification{
         float: right;
     }
 
     #features-changes-container input[type=button]{
         display: inline-block;
-        width: 40%;
+        width: 49%;
     }
 
     #feature-explanation-container{
