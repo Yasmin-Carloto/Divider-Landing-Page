@@ -74,10 +74,6 @@ nav ul li a{
     color: var(--white);
 }
 
-#register{
-    background-color: var(--soft-red);
-}
-
 #register a{
     color: var(--white);
 }
