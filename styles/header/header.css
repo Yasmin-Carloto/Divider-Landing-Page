@@ -7,28 +7,6 @@ header{
     display: inline;
 }
 
-#logo{
-    display: inline;
-}
-
-#menu-main-container #logo img{
-    width: 2em;
-    border-radius: 2em;
-    box-shadow:  1px 1px 3px var(--shadow-color);
-    margin-right: 0.5em;
-}
-
-#menu-main-container #logo h1{
-    display: inline;
-}
-
-#menu-main-container #logo h1 a{
-    text-decoration: none;
-    color: var(--soft-blue);
-    font-size: 30px;
-    font-family: "Rubik Light";
-}
-
 #hamburguer-menu{
     background: url(/images/icon-hamburger.svg) no-repeat;
     border: none;
@@ -51,13 +29,13 @@ header #menu-navigation-container{
     display: none;
 }
 
-#menu-navigation-container ul{
+header #menu-navigation-container ul{
     list-style: none;
     text-decoration: none;
     padding-inline-start: 0px;
 }
 
-nav ul li{
+header nav ul li{
     font-size: 16px;
     margin: 0.5em;
     border-radius: 0.5em;
@@ -65,11 +43,11 @@ nav ul li{
     cursor: pointer;
 }
 
-nav ul li:hover, #register:hover{
+header nav ul li:hover, #register:hover{
     background-color: var(--soft-blue);
 }
 
-nav ul li a{
+header nav ul li a{
     text-decoration: none;
     color: var(--white);
 }
@@ -83,7 +61,7 @@ nav ul li a{
         padding: 4em 10em;
     }    
 
-    #menu-main-container #logo img{
+    header #menu-main-container #logo img{
         width: 2.2em;
         border-radius: 4em;
         box-shadow:  1px 1px 8px var(--shadow-color);
@@ -91,17 +69,17 @@ nav ul li a{
         position: relative;
     }
 
-    #menu-main-container #logo h1{
+    header #menu-main-container #logo h1{
         position: absolute;
         top: 36%
     }
 
-    #menu-main-container #logo h1 a{
+    header #menu-main-container #logo h1 a{
         font-size: 32px;
         position: relative;
     }
 
-    #hamburguer-menu{
+    header #hamburguer-menu{
         display: none;
     }
 
@@ -117,7 +95,7 @@ nav ul li a{
         float: right;
     }
     
-    nav ul li{
+    header nav ul li{
         display: inline;
         font-size: 16px;
         margin: 0.5em;
@@ -126,11 +104,11 @@ nav ul li a{
         cursor: pointer;
     }
 
-    nav ul li:hover{
+    header nav ul li:hover{
         background-color: var(--soft-blue);
     }
     
-    nav ul li a{
+    header nav ul li a{
         text-decoration: none;
         color: var(--grayish-blue-lighter);
         font-size: 16px;

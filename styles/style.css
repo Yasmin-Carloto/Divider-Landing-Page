@@ -3,6 +3,7 @@
 @import url(/styles/main-app-features/main-app-features.css);
 @import url(/styles/main-app-faq/main-app-faq.css);
 @import url(/styles/main-app-update-form/main-app-update-form.css);
+@import url(/styles/footer/footer.css);
 
 *{
     font-family: "Rubik Regular", sans-serif;
@@ -48,6 +49,28 @@ body {
 
 .clean{
     clear: both;
+}
+
+.logo{
+    display: inline;
+}
+
+.logo img{
+    width: 1.5em;
+    border-radius: 2em;
+    box-shadow:  1px 1px 3px var(--shadow-color);
+    margin-right: 0.5em;
+}
+
+.logo h1{
+    display: inline;
+}
+
+.logo h1 a{
+    text-decoration: none;
+    color: var(--soft-blue);
+    font-size: 30px;
+    font-family: "Rubik Light";
 }
 
 @font-face {
