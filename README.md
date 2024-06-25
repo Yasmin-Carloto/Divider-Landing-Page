@@ -4,7 +4,7 @@ Essa é uma Landing Page desenvolvida para o aplicativo Divider. Esse tem o prop
 Esta Landing Page também é a Terceira Atividade da Trilha FullStack Jr. da +praTi que tem por objetivo capacitar e encaminhar cerca de 300 jovens com aulas online.
 
 ## Acessar Divider
-A Landing Page do Divider está hospedado no Github Pages neste link: []()
+A Landing Page do Divider está hospedado no Github Pages neste link: [https://yasmin-carloto.github.io/Divider-Landing-Page/](https://yasmin-carloto.github.io/Divider-Landing-Page/)
 
 ## Tecnologias usadas no projeto
 * HTML 
@@ -15,7 +15,7 @@ A Landing Page do Divider está hospedado no Github Pages neste link: []()
 
 1. Coloque no terminal:
 ```
-git clone 
+git clone https://github.com/Yasmin-Carloto/Divider-Landing-Page.git
 ```
 
 2. Abrir com o VS CODE (ou IDE de preferência)
