@@ -1,10 +1,9 @@
-@import url(/styles/header/header.css);
-@import url(/styles/footer/footer.css);
-@import url(/styles/main-app-introduction/main-app-introduction.css);
-@import url(/styles/main-app-features/main-app-features.css);
-@import url(/styles/main-app-faq/main-app-faq.css);
-@import url(/styles/main-app-update-form/main-app-update-form.css);
-@import url(/styles/styles/footer/footer.css);
+@import url(./header/header.css);
+@import url(./main-app-faq/main-app-faq.css);
+@import url(./main-app-features/main-app-features.css);
+@import url(./main-app-introduction/main-app-introduction.css);
+@import url(./main-app-update-form/main-app-update-form.css);
+@import url(./footer/footer.css);
 
 *{
     font-family: "Rubik Regular", sans-serif;
