@@ -6,6 +6,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/logo-smile.png">
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Divider</title>
 </head>
 <body>
@@ -26,7 +27,7 @@
         </li>
 
         <li>
-          <a href="#">Faq</a>
+          <a href="#faq-section-container">Faq</a>
         </li>
 
         <li>
@@ -51,7 +52,7 @@
       <div id="app-information-container">
         <div id="app-information-text">
           <h2 class="section-title">A simple way to do your study</h2>
-          <p class="section-description">You take a topic and break it down into questions that must be answered. With this, you will be ranked among the same people who are studying the same subject. It is a method inspired by CBL</p>
+          <p class="section-description">You take a topic and break it down into questions that must be answered. With this, you will be ranked among the same people who are studying the same subject. It is a method inspired by CBL.</p>
         </div>
 
         <div id="app-information-links">
@@ -73,7 +74,6 @@
       </div>
 
       <div id="feature-explanation-container">
-        <!-- gamificação -->
         <img src="images/illustration-features-tab-2.svg" alt="An illustration of the feature" id="feature-image">
         <h2 class="section-title">Learn by yourself</h2>
         <p class="section-description">We use a technique inspired by the CBL framework. This characteristic specifies that, when you have a study topic, you, due to your own doubts about the topic, come up with questions about it that must be answered. According to your answer, you will be ranked among other people studying this subject.</p>
@@ -81,7 +81,61 @@
 
     </section>
 
+    <section id="faq-section-container">
+      <h2 class="section-title clean">FAQ</h2>
 
+      <div id="faq-container">
+        <div class="faq active">
+          <button type="button" class="faq-accordion">
+            <span class="faq-question">What is the purpose of breaking a topic down into questions?</span>
+            <i class="fa-solid fa-chevron-down" id="icon-arrow"></i>
+          </button>
+          <div class="faq-pannel">
+            <p>The purpose is to encourage deeper understanding and engagement with the topic. By formulating questions, learners identify key concepts and areas that need further exploration, enhancing their overall comprehension.</p>
+          </div>
+        </div>
+
+        <div class="faq active">
+          <button type="button" class="faq-accordion">
+            <span class="faq-question">What is CBL and how does it inspire this method?</span>
+            <i class="fa-solid fa-chevron-down" id="icon-arrow"></i>
+          </button>
+          <div class="faq-pannel">
+            <p>CBL stands for Challenge-Based Learning. It is an educational approach that involves solving real-world challenges through collaborative efforts. This method draws inspiration from CBL by encouraging learners to actively engage with the material and seek solutions through critical thinking and questioning.</p>
+          </div>
+        </div>
+
+        <div class="faq active">
+          <button type="button" class="faq-accordion">
+            <span class="faq-question">What benefits does this method offer compared to traditional studying techniques?</span>
+            <i class="fa-solid fa-chevron-down" id="icon-arrow"></i>
+          </button>
+          <div class="faq-pannel">
+            <p>This method promotes active learning, critical thinking, and self-assessment. It encourages learners to take ownership of their education and engage more deeply with the material, leading to better retention and understanding.</p>
+          </div>
+        </div>
+
+        <div class="faq active">
+          <button type="button" class="faq-accordion">
+            <span class="faq-question">How can educators implement this method in their classrooms?</span>
+            <i class="fa-solid fa-chevron-down" id="icon-arrow"></i>
+          </button>
+          <div class="faq-pannel">
+            <p>Educators can introduce this method by guiding students to identify key topics, formulating relevant questions, and facilitating discussions. They can also set up a points and ranking system to motivate students and track their progress.</p>
+          </div>
+        </div>
+
+        <div class="faq active">
+          <button type="button" class="faq-accordion">
+            <span class="faq-question">How are the questions created in this method?</span>
+            <i class="fa-solid fa-chevron-down" id="icon-arrow"></i>
+          </button>
+          <div class="faq-pannel">
+            <p>Questions are typically created by the learners themselves based on their curiosity and areas of interest within the topic. This self-directed approach ensures that the questions are relevant and meaningful to the learner's understanding.</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
 
