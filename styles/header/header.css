@@ -8,7 +8,7 @@ header{
 }
 
 #hamburguer-menu{
-    background: url(/images/icon-hamburger.svg) no-repeat;
+    background: url(../../images/icon-hamburger.svg) no-repeat;
     border: none;
     cursor: pointer;
     float: right;
