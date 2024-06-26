@@ -37,7 +37,7 @@ const updateFeatureExplanation = (imgSrc, imgAlt, titleText, paragraphText) => {
 gamificationFeature.addEventListener("click", (e) => {
     e.preventDefault()
     updateFeatureExplanation(
-        "/images/illustration-features-tab-3.svg",
+        "./images/illustration-features-tab-3.svg",
         "An illustration of the feature",
         "Be competitive",
         "With the gamification feature, people studying the same topics will be classified based on the number of answers they answered and the number of points each question has."
@@ -47,7 +47,7 @@ gamificationFeature.addEventListener("click", (e) => {
 questionDividerFeature.addEventListener("click", (e) => {
     e.preventDefault()
     updateFeatureExplanation(
-        "/images/illustration-features-tab-2.svg",
+        "./images/illustration-features-tab-2.svg",
         "An illustration of the feature",
         "Learn by yourself",
         "We use a technique inspired by the CBL framework. This characteristic specifies that, when you have a study topic, you, due to your own doubts about the topic, come up with questions about it that must be answered. According to your answer, you will be ranked among other people studying this subject."
