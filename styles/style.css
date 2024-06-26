@@ -75,10 +75,10 @@ body {
 
 @font-face {
     font-family: "Rubik Regular";
-    src: url(./fonts/rubik/static/Rubik-Regular.ttf);
+    src: url(fonts/rubik/static/Rubik-Regular.ttf);
 }
 
 @font-face {
     font-family: "Rubik Light";
-    src: url(./fonts/rubik/static/Rubik-Light.ttf);
+    src: url(fonts/rubik/static/Rubik-Light.ttf);
 }
